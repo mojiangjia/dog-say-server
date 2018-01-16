@@ -1,0 +1,25 @@
+{
+  "name": "dogserver",
+  "version": "1.0.0",
+  "description": "sever for rn app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mojiang Jia",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.3.0",
+    "koa-session": "^5.7.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.9",
+    "sha1": "^1.1.1",
+    "speakeasy": "^2.0.0",
+    "uuid": "^3.1.0",
+    "xss": "^0.3.7"
+  }
+}
