@@ -46,7 +46,7 @@ app.use(logger());
 app.use(session(app));
 app.use(bodyParser());
 
-var router = require('./routes')();
+var router = require('./config/routes')();
 
 app
 	.use(router.routes())
